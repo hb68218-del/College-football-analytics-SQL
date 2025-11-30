@@ -1,0 +1,49 @@
+# Managerial Reasoning 
+Average Point Differential per Team:
+The average point differential helps determine which team is actually dominating rather than just winning games by a lucky close margin. Coaching staff can use this as a better metric than season record to understand how well the team is performing. The SEC conference could also use this as a metric to determine which teams are leading the conference and, if teams have similar records, which are likely to reach the SEC championship. 
+Average Attendance by Home Team:
+This bar chart shows which SEC teams draw the largest crowds at home. Managers can learn about fan engagement and brand strength from average attendance numbers. High average attendance can signal a strong fan base, a good brand, and a strong gameday experience. Low average attendance could be a red flag for marketing, scheduling, and brand strength. These numbers can also help managers understand the facility's ROI.
+Game Results by Weather:
+Knowing a team's ability to persevere through different weather conditions helps gauge its ability to travel for bowl games, late-season games, or nonconference opponents. This data can help coaching staff decide whether to prioritize practicing in conditions different from those of the home team.   
+
+# 5 Complex Query
+Referee strictness
+SELECT
+    r.refereename, AVG(ght.penalities) AS avg_penalties_per_game,
+    CASE
+        WHEN AVG(ght.penalities) >= 10 THEN 'Strict'
+        WHEN AVG(ght.penalities) >= 5  THEN 'Average'
+        ELSE 'Lenient'
+    END AS strictness_category
+FROM referee AS r
+JOIN game_has_referee AS ghr
+    ON ghr.idReferee = r.idreferee
+JOIN game_has_teams AS ght
+    ON ght.Game_idGame = ghr.idGame
+GROUP BY
+    r.refereename
+ORDER BY
+    avg_penalties_per_game DESC;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Managerial Reasoning:
+This query averages the overall penalties that refs make to gauge their level of strictness.  Knowing how strict referees are can help coaching staff prepare players for the flow of the game and plan game strategy according to how strict referees are.
+
+
