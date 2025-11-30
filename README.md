@@ -1,109 +1,92 @@
-SEC Football Database Project
-MIST 4610 – Project Part 1 and Part 2
+## SEC Football Database Project
 
-Author: Sally Bae
-Semester: Fall 2025
+MIST 4610
+Project Part 1 and Part 2
 
-📌 Project Overview
+### Project Group 6 - 
+
+**Haeun Bae**
+**Dylan Ray**
+**Mattie Comte**
+**Tucker Herring**
+---
+
+## 📌 Project Overview
 
 This project models SEC college football data using a relational database, SQL queries, and Power BI visualizations.
-It is completed in two phases:
+The work is completed across two phases.
 
-Part 1 – Data Modeling & SQL
+### 🏈 Part 1 Data Modeling and SQL
 
-Designed a complete EER diagram
+* Designed a complete EER diagram
+* Built a normalized relational schema
+* Created all tables with correct keys and relationships
+* Wrote ten SQL queries both simple and complex
 
-Built a normalized relational schema
+### 📊 Part 2 Analytics and Visualization
 
-Created all tables with correct keys and relationships
+* Added five new complex SQL queries
+* Generated managerial insights
+* Built a Power BI dashboard
+* Exported required PDF visuals
+* Submitted final database schema and EER diagram
 
-Wrote 10 SQL queries (simple + complex)
+---
 
-Part 2 – Analytics & Visualization
+## 📂 Repository Contents
 
-Added 5 new complex SQL queries
+### 📘 Final Database sql
 
-Generated managerial insights
-
-Built a Power BI dashboard
-
-Exported required PDF visualizations
-
-Submitted final database schema + EER diagram
-
-📂 Repository Contents
-
-Below is a description of every file in this folder and what it is used for.
-
-📘 1. Final_Database.sql
-
-The full SQL script used to create the complete database for Project Part 2.
+Full SQL script used to create the complete database for Part 2.
 Includes all tables, foreign keys, constraints, and schema relationships.
 
-📘 2. Final_EERDiagram_SQL.mwb
+### 📘 Final EERDiagram SQL mwb
 
-MySQL Workbench model file.
-This is the source file for the EER diagram.
+MySQL Workbench model file and source file for the EER diagram.
 
-📷 3. Final_EERDiagram_Png.png
+### 📷 Final EERDiagram Png png
 
-Exported PNG image of the finalized EER diagram.
-Used for the Project Part 2 submission.
+Exported PNG image of the finalized EER diagram used for the Part 2 submission.
 
-📊 4. Dashboard.pbit
+### 📊 Dashboard pbit
 
-Power BI template file of the data visualization dashboard.
-Contains:
-
+Power BI template for the analytics dashboard including
 Average Point Differential
-
 Average Attendance by Home Team
-
 Game Results by Weather
 
-📄 5. 3_Visualization_PDF.pdf
+### 📄 Three Visualization PDF pdf
 
-Required exported visuals for Part 2:
-
+Required exported visuals for Part 2
 Average Point Differential
-
 Average Attendance
-
 Game Results by Weather
 
-📄 6. 5_Complex_Queries/
+### 📁 Five Complex Queries folder
 
-Folder containing the five written SQL queries added for Part 2 including:
-
+Contains the five SQL queries created for Part 2
 Referee Strictness Query
-
 Weather Impact Query
-
 Attendance Query
-
 Point Differential Query
-
 Additional SEC analytics queries
 Each file includes managerial reasoning.
 
-📘 7. collegefootball_schema_data.sql
+### 📘 collegefootball schema data sql
 
-The original Part 1 schema and dataset before revisions.
+Original schema and dataset for Part 1.
 Kept for version history and comparison.
 
-📘 8. queries_script.sql
+### 📘 queries script sql
 
-SQL queries from Project Part 1.
+SQL queries created for Project Part 1.
 
-📄 9. queries_deliverable_screenshots.docx
+### 📄 queries deliverable screenshots docx
 
-Screenshots of the results for all Part 1 SQL queries.
+Screenshots of all Part 1 SQL query results.
 
-📄 10. datamodel_MIST4610.png
+### 📄 datamodel MIST4610 png
 
-Earlier version of the EER model from Part 1.
+Earlier version of the EER diagram from Part 1.
 
-📄 11. data_dictionary.xlsx (old)
-
-Original Part 1 data dictionary.
-Replaced by the new version below.
+### 📄 data dictionary old xlsx
