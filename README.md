@@ -3,12 +3,7 @@
 MIST 4610
 Project Part 1 and Part 2
 
-### Project Group 6 - 
-
-**Haeun Bae**
-**Dylan Ray**
-**Mattie Comte**
-**Tucker Herring**
+### Project Group 6 - Haeun Bae, Dylan Ray, Mattie Comte, Tucker Herring
 ---
 
 ## 📌 Project Overview
