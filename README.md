@@ -1,100 +1,119 @@
-## SEC Football Database Project
+# SEC Football Database Project
 
-MIST 4610
-Project Part 1 and Part 2
-
-### Project Group 6 - Haeun Bae, Dylan Ray, Mattie Comte, Tucker Herring
----
-
-## 📌 Project Overview
-
-This project models SEC college football data using a relational database, SQL queries, and Power BI visualizations.
-The work is completed across two phases.
-
-### 🏈 Part 1 Data Modeling and SQL
-
-* Designed a complete EER diagram
-* Built a normalized relational schema
-* Created all tables with correct keys and relationships
-* Wrote ten SQL queries both simple and complex
-
-### 📊 Part 2 Analytics and Visualization
-
-* Added five new complex SQL queries
-* Generated managerial insights
-* Built a Power BI dashboard
-* Exported required PDF visuals
-* Submitted final database schema and EER diagram
+**MIST 4610 – Database Management & Analytics**  
+**Project Group 6** — Haeun Bae (Repository Owner & Group Lead), Dylan Ray, Mattie Comte, Tucker Herring
 
 ---
 
-## 📂 Repository Contents
+## Project Objective
 
-### 📁 Part1 Folder
+The objective of **Project Part 2** is to apply advanced SQL querying and data visualization techniques to analyze SEC college football data. This phase focuses on generating meaningful insights through complex SQL operations and transforming results into clear, professional analytics dashboards for managerial decision making.
 
-Contains all deliverables from Project Part 1.
+By the end of the project, students demonstrate proficiency in:
 
-### 📘 collegefootball schema data sql
-
-Original database schema and dataset for Part 1.
-Kept for version tracking and comparison.
-
-### 📘 queries script sql
-
-All SQL queries written for Project Part 1.
-
-### 📄 queries deliverable screenshots docx
-
-Screenshots of query outputs for Part 1.
-
-### 📄 datamodel MIST4610 png
-
-Early version of the EER diagram created during Part 1.
-
-### 📄 data dictionary old xlsx
-
-Original Part 1 data dictionary prior to revisions.
+- Writing multi-table and analytical SQL queries  
+- Identifying trends such as referee behavior, weather impacts, and scoring patterns  
+- Building Power BI dashboards from SQL outputs  
+- Communicating insights through structured managerial reasoning  
 
 ---
 
-### 📁 Part2 Folder
+## Problem Overview
 
-Contains all deliverables from Project Part 2.
+After completing database design and foundational SQL work in **Part 1**, Part 2 expands into **analytical storytelling**. Students investigate higher-level analytical questions, including:
 
-### 📘 Final Database sql
+- How weather conditions influence game outcomes  
+- Whether referee strictness impacts scoring behavior  
+- Attendance trends across teams and venues  
+- How managers can interpret point differentials for strategic insights  
 
-Complete SQL script for the final version of the database.
-Includes all tables, foreign keys, constraints, and schema relationships.
+This phase connects database logic with data-driven decision making, emphasizing interpretation rather than raw query output.
 
-### 📘 Final EERDiagram SQL mwb
+---
 
-MySQL Workbench model file.
-Source file for the final EER diagram.
+## Tools and Technologies Used
 
-### 📷 Final EERDiagram Png png
+- MySQL Workbench  
+- Advanced SQL (complex joins, aggregations, analytical queries)  
+- Power BI Desktop  
+- PDF and document exports for formal submission  
 
-Exported PNG image of the finalized EER diagram.
+---
 
-### 📊 Dashboard pbit
+## Data Used in Part 2
 
-Power BI dashboard template containing
-Average Point Differential
-Average Attendance by Home Team
-Game Results by Weather
+The dataset includes detailed SEC football information such as:
 
-### 📄 Three Visualization PDF pdf
+- Game outcomes and scoring margins  
+- Weather conditions  
+- Attendance figures  
+- Referee data  
+- Team and opponent attributes  
 
-Required exported visuals for Part 2
-Average Point Differential
-Average Attendance
-Game Results by Weather
+These data elements were queried, aggregated, and visualized to uncover meaningful performance and behavioral insights.
 
-### 📁 Five Complex Queries folder
+---
 
-Contains the five SQL queries written for Part 2
-Referee Strictness Query
-Weather Impact Query
-Attendance Query
-Point Differential Query
-Additional SEC analytics queries
-Each file contains managerial reasoning.
+## Project Tasks Completed in Part 2
+
+### Advanced SQL Querying
+
+Five complex SQL queries were created to analyze:
+
+- Referee strictness  
+- Weather impact on scoring and outcomes  
+- Attendance patterns  
+- Point differential behavior  
+- Additional SEC analytics scenarios  
+
+Each query was tested, documented, and exported with validated results.
+
+---
+
+### Data Visualization and Insights
+
+A Power BI dashboard was produced containing three primary visuals:
+
+- Average Point Differential  
+- Average Attendance by Home Team  
+- Game Results by Weather  
+
+Each visualization includes written managerial reasoning explaining how decision makers could interpret and act on the observed trends.
+
+---
+
+## Repository Contents
+
+### `Final_Database.sql`
+Complete SQL script including all tables, constraints, keys, and the finalized schema used for Part 2 analysis.
+
+### `Final_EERDiagram_SQL.mwb`
+MySQL Workbench model file containing the finalized EER diagram.
+
+### `Final_EERDiagram_Png.png`
+PNG export of the finalized EER diagram.
+
+### `Dashboard.pbit`
+Power BI dashboard file containing Part 2 visualizations.
+
+### `3_Visualization_PDF.pdf`
+PDF export of the three dashboard visuals:
+- Average Point Differential  
+- Average Attendance  
+- Game Results by Weather  
+
+### `3_Visualization_Managerial_Reasoning.docx`
+Document explaining managerial insights derived from each dashboard visualization.
+
+### `5_Complex_Query_and_Result_SC.docx`
+Document containing all five SQL queries with screenshots of their outputs.
+
+### `5_Complex_Queries/`
+Folder containing individual SQL scripts for:
+- Referee Strictness Query  
+- Weather Impact Query  
+- Attendance Query  
+- Point Differential Query  
+- Additional SEC Analytics Query  
+
+Each script includes reasoning and expected analytical outcomes.
