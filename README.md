@@ -1,7 +1,7 @@
 # SEC Football Database Project
 
 **MIST 4610 – Database Management & Analytics**  
-**Project Group 6** — Haeun Bae (Repository Owner & Group Lead), Dylan Ray, Mattie Comte, Tucker Herring
+**Project Group 6** — **Haeun Bae (Repository Owner & Group Lead)**, Dylan Ray (database support), Mattie Comte (project support)
 
 ---
 
